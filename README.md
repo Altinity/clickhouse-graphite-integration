@@ -25,7 +25,7 @@ ClickHouse installation is explained in several sources, such as:
  * for [rpm-based systems](https://github.com/Altinity/clickhouse-rpm-install)
 
 # Setup ClickHouse - Graphite integration
-Setup ClickHouse to report metrics into Graphite
+Setup ClickHouse to report metrics into Graphite. Edit `/etc/clickhouse-server/config.xml` and append something like the following:
 ```xml
     <graphite>
         <host>192.168.74.150</host>
