@@ -11,6 +11,7 @@
 # Introduction - what are we talking about
 We'd like to monitor ClickHouse's status, preferably with some tool, which can provide nice on-the-fly graphics.
 [Graphite](https://graphiteapp.org/) is one of such tools available, so we'd use it to receive and display metrics, coming from ClickHouse.
+
 Graphite - what is it? Graphite is an enterprise-scale monitoring tool, and as we'd like to monitor Clickhouse's health, we need to report to Graphite some kind of health metrics.
 Let's setup Graphite, Clickhouse, integration between them and take a look on monitoring.
 
