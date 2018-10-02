@@ -76,7 +76,7 @@ We have two metrics streams - each second and each minute - mainly for test purp
 
 # Monitoring
 
-As we have ClickHouse - Graphite integration setup done, metrics data should be coming from ClickhOuse into Graphite.
+As we have ClickHouse - Graphite integration setup done, metrics data should be coming from ClickHouse into Graphite.
 Let's take a look on those metrics. Navigate to Graphite web monitoring tool in browser as `http://host/dashboard` (where `host` is the host Graphite is running).
 In case all is well and ClickHouse sends its data, you'll see entries with prefixes, specified in ClickHouse's configuration, which are
 
